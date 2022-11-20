@@ -1,0 +1,7 @@
+n = input('Insira um caracter')
+print('Este caracter e alfabetico?')
+print(n.isalpha())
+print('Este caracter e numerico?')
+print(n.isnumeric())
+print('Este caracter e alphanumerico?')
+print(n.isalnum())

@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase:'))
+print(frase)
+busca = frase.find('a')
+busca2 = frase.rfind('a')
+print(f'A primeira letra "a" esta na posição {busca} e a ultima na posição {busca2}')
